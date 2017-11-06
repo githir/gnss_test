@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+   <node pkg="gnss_suzuki" name="ConvGpsToLL" type="ConvGpsToLL" output="screen">
+     <param name="GPS_PORT" value="/dev/ttyUSB0" />
+   </node>
+</launch>
